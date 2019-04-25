@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" prefHeight="200.0" prefWidth="500.0" spacing="40.0" 
+	xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+	fx:controller="application.RootController">
+   <children>
+      <Label text="Two Methodology">
+         <font>
+            <Font name="Consolas" size="50.0" />
+         </font>
+      </Label>
+      <Button fx:id="exitButton" mnemonicParsing="false" prefWidth="80.0" text="종료" 
+      	onAction="#exitButtonAction"/>
+   </children>
+</VBox>
